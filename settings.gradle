@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS) // safer for first builds
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "PlaceFinderApp"
+include ':app'
